@@ -1,0 +1,132 @@
+Java 17 - Fundamentals
+
+Day 1: Introduction to Java
+Welcome and Course Overview
+
+Introduction to Java
+History and Evolution of Java
+Java SE 17 Features and Enhancements
+Setting Up the Development Environment
+
+Installing JDK 17
+Setting up IDE (IntelliJ IDEA/Eclipse/NetBeans)
+Configuring the IDE
+Basic Syntax and Structure
+
+Java Program Structure
+Writing Your First Java Program
+Compiling and Running Java Programs
+Variables and Data Types
+
+Primitive Data Types
+Reference Data Types
+Variable Declaration and Initialization
+Type Casting
+Operators and Expressions
+
+Arithmetic Operators
+Relational Operators
+Logical Operators
+Assignment Operators
+Day 2: Object-Oriented Programming (OOP) Basics
+Introduction to OOP
+
+Principles of OOP
+Benefits of OOP
+Classes and Objects
+
+Defining Classes
+Creating Objects
+Class Members (Fields and Methods)
+Constructors
+Methods and Encapsulation
+
+Method Declaration and Invocation
+Method Overloading
+Access Modifiers
+Encapsulation and Data Hiding
+Inheritance
+
+Inheritance Basics
+The super Keyword
+Method Overriding
+Object Class
+Day 3: Advanced OOP Concepts
+Polymorphism
+
+Static vs Dynamic Binding
+Method Overriding and Overloading
+Polymorphic Behavior
+Abstract Classes and Interfaces
+
+Abstract Classes
+Interfaces
+Implementing Multiple Interfaces
+Functional Interfaces and Lambda Expressions (Java 8 and beyond)
+Inner Classes
+
+Member Inner Classes
+Local Inner Classes
+Anonymous Inner Classes
+Static Nested Classes
+Packages and Access Control
+
+Defining Packages
+Importing Packages
+Access Control Levels
+Day 4: Exception Handling and Collections Framework
+Exception Handling
+
+Types of Exceptions
+The try-catch Block
+throw and throws
+Custom Exceptions
+The Collections Framework
+
+Introduction to Collections
+List, Set, and Map Interfaces
+ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap
+Iterating through Collections
+Generics
+
+Introduction to Generics
+Generic Classes and Methods
+Bounded Type Parameters
+Type Inference and Wildcards
+Day 5: Java Advanced Topics and Best Practices
+Java I/O
+
+File I/O with java.nio.file
+Reading and Writing Files
+Buffered Streams
+Serialization
+Multithreading and Concurrency
+
+Introduction to Threads
+Creating and Running Threads
+Synchronization
+Concurrency Utilities (java.util.concurrent)
+Lambda Expressions and Streams API
+
+Lambda Expressions Syntax
+Functional Interfaces
+Streams API for Bulk Data Operations
+Stream Processing: filter, map, reduce
+Java Modules (Project Jigsaw)
+
+Introduction to Modules
+Creating and Using Modules
+Module Declarations
+Module System in Java 17
+Best Practices and Design Patterns
+
+Coding Standards and Conventions
+Design Patterns in Java
+Effective Java Tips
+Code Optimization Techniques
+Course Wrap-Up
+
+Review Key Concepts
+Q&A Session
+Resources for Further Learning
+Final Project/Assignment
