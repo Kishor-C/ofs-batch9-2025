@@ -13,6 +13,7 @@ public class TestEmployeeObjects {
 		
 	}
 	public static void print(Employee e) {
+		System.out.println(e);
 		System.out.println("Name="+e.getName()+
 				", Id="+e.getId()+", Salary="+e.getSalary());
 	}
