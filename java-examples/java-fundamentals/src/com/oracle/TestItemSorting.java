@@ -2,10 +2,23 @@ package com.oracle;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 public class TestItemSorting {
 	public static void main(String[] args) {
+		
+		Set<Item> set = new TreeSet<>((x, y) -> Integer.compare(y.getItemId(), x.getItemId()));
+		set.add(new Item(2, "Laptop2", 40000, LocalDate.now()));
+		set.add(new Item(3, "Laptop3", 30000, LocalDate.now()));
+		set.add(new Item(5, "Laptop5", 50000, LocalDate.now()));
+		set.add(new Item(1, "Laptop1", 10000, LocalDate.now()));
+		
+		System.out.println(set);
+		
+		System.out.println("------------------------------");
+		
 		List<Item> itemList = List.of(
 				new Item(7, "Laptop", 45000, LocalDate.parse("2024-12-24")),
 				new Item(6, "Mobile", 75000, LocalDate.parse("2023-11-27")),
