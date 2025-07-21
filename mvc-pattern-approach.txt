@@ -1,0 +1,20 @@
+
+Case Study -> 
+
+Service layer -> classes -> 5 classes -> 5 interfaces
+DAO layer -> classes -> 5 classes -> 5 interfaces
+
+Loosely coupled application ->
+	interfaces as a reference + factory pattern (Framework)
+
+	Service Layer classes must have 
+	1. InterfaceDAO ref = new InterfaceDAOImp(); // Bad
+	2. InterfaceDAO ref = FactoryPattern.getInstance(); // Better	
+
+	Controller Layer classes  [OR] main method must have
+	1. InterfaceService ref = new InterfaceServiceImp(); // Bad
+	2. InterfaceSevice ref = FactoryPattern2.getInstance(); // Better	
+
+How to create an interface to the existing classes of DAO & Service
+Goto the class -> RC -> Refactor -> Extract Interface -> Select all the methods
+	
